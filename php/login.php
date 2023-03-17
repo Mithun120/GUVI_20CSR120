@@ -4,7 +4,7 @@ $username = "sql12606419";
 $password = "wCimSR1VNb";
 $database = "sql12606419";
 $redis = new Redis();
-$redis->connect('127.0.0.1', 6379);
+$redis->connect('redis-17424.c15.us-east-1-2.ec2.cloud.redislabs.com', 17424);
 $conn=mysqli_connect($servername,$username,$password,$database);
 if(mysqli_connect_errno())
 {
